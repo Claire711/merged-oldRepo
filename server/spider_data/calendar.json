@@ -1,0 +1,76 @@
+{
+  "yangli": {
+    "date": "2025年08月23日",
+    "xingqi": "星期六",
+    "week": 6,
+    "year": 2025,
+    "month": 8,
+    "day": 23,
+    "nian_yue": "2025/08",
+    "year_cn": "二零二五",
+    "month_cn": "八"
+  },
+  "nongli": {
+    "shengxiao": "蛇",
+    "nian": "二〇二五",
+    "yue": "七月",
+    "ri": "初一",
+    "yueri": "七月初一",
+    "ganzhi": "乙巳年 甲申月 甲子日"
+  },
+  "jiufu": {
+    "jiufu": 0,
+    "jiufu_str": null,
+    "jiufu_index": 0,
+    "jiufu_index_str": null
+  },
+  "jieqi": {
+    "jieqi": "处暑",
+    "jieqi_link": "<a href=\"/24jieqi/chushu/\" class=\"jq Yx8\">处暑</a>",
+    "jieqi_index": 1,
+    "jieqi_next": 15,
+    "jieqi_next_link": "<a href=\"/24jieqi/bailu/\" class=\"jq Yx8\">白露</a>",
+    "jieqi_index_cn": "一"
+  },
+  "nian_index": 235,
+  "xingzuo": {
+    "xingzuo": "处女",
+    "xingzuo_index": 1,
+    "xingzuo_link": "<a href=\"/xingzuo/chunv/\" class=\"xz Yx0\">处女座</a>"
+  },
+  "yi": "结婚,祭祀,祈福,求嗣,出火,出行,开光,解除,拆卸,修造,进人口,安香,交易,立券,搬家,移徙,安床,动土,破土,谢土,安葬,入殓,除服,成服",
+  "ji": "斋醮,开业,开仓,作灶,造船",
+  "jieri": [],
+  "mrbb": "今天是2025年8月23日，农历七月初一，星期六，今天是<a href=\"/24jieqi/chushu/\" class=\"jq Yx8\">处暑</a>",
+  "djs": [
+    {
+      "bt_jin": "今天是国庆节",
+      "bt_cha": "国庆节",
+      "src": "/images/image/202008/02105423vf.jpg",
+      "url": "/guoqingjie/",
+      "shu": "节日",
+      "cha": 39,
+      "date": "2025年10月01日"
+    },
+    {
+      "bt_jin": "今天是中秋节",
+      "bt_cha": "中秋节",
+      "src": "/images/image/202008/02110441xb.jpg",
+      "url": "/zhongqiu/",
+      "shu": "传统节日",
+      "cha": 44,
+      "date": "2025年10月06日"
+    },
+    {
+      "bt_jin": "今天是春节",
+      "bt_cha": "春节",
+      "src": "/images/image/202008/021045077z.jpg",
+      "url": "/chunjie/",
+      "shu": "传统节日",
+      "cha": 178,
+      "date": "2026年02月17日"
+    }
+  ]
+}
+
+//jsonrun_Today(/?/);https://www.rili.com.cn/rili/json/today/2025/0823.js
