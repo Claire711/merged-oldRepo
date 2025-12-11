@@ -14,7 +14,7 @@ func (u *UserRouter) InitUserRouter(Router *gin.RouterGroup, PublicRouter *gin.R
 	userPublicRouter := PublicRouter.Group("user")
 	userLoginRouter := PublicRouter.Group("user").Use(middleware.LoginRecord())
 	userAdminRouter := AdminRouter.Group("user")
-	userApi := api.ApiGroupApp.UserApi //cha
+	userApi := api.ApiGroupApp.UserApi
 	{
 		userRouter.POST("logout", userApi.Logout)
 		userRouter.PUT("resetPassword", userApi.UserResetPassword)
@@ -34,7 +34,7 @@ func (u *UserRouter) InitUserRouter(Router *gin.RouterGroup, PublicRouter *gin.R
 	{
 		userAdminRouter.GET("list", userApi.UserList)
 		userAdminRouter.PUT("freeze", userApi.UserFreeze)
-		userAdminRouter.PUT("ubfreeze", userApi.UserUnfreeze)
+		userAdminRouter.PUT("unfreeze", userApi.UserUnfreeze)
 		userAdminRouter.GET("loginList", userApi.UserLoginList)
 	}
 }
